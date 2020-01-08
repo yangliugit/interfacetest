@@ -1,0 +1,24 @@
+2019-01-14 11:43:53,746 - root - Run.py - run - INFO - *************TEST START*************
+2019-01-14 11:43:54,746 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:43:55,747 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:43:56,747 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:43:57,749 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:43:58,750 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:43:59,750 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:44:00,752 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:44:01,753 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:44:02,753 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:44:03,753 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:44:03,756 - root - Run.py - run - INFO - *************TEST END***************
+2019-01-14 11:50:42,716 - root - Run.py - run - INFO - *************TEST START*************
+2019-01-14 11:50:43,716 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:50:44,717 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:50:45,717 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:50:46,717 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:50:47,717 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:50:48,719 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:50:49,719 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:50:50,719 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:50:51,719 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:50:52,719 - root - Getdata.py - test_getdata - ERROR - woshiguyide
+2019-01-14 11:50:52,721 - root - Run.py - run - INFO - *************TEST END***************
