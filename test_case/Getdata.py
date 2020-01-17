@@ -27,10 +27,11 @@ class Getdata(unittest.TestCase):
     def test_getdata(self):
         time.sleep(1)
         print "caseName:%s \n method:%s \n vehicleIds:%s \n cmdCode:%s \n cmdVal:%s \n sendTitle:%s \n paramCode:%s \n paramName:%s \n Id:%s \n " % (self.caseName, self.method, self.vehicleIds, self.cmdCode, self.cmdVal, self.sendTitle,self.paramCode, self.paramName, self.Id)
-        try:
-            self.assertEqual(1, 2, msg="woshiguyide")
-        except Exception as e:
-            log.error(str(e))
+        self.assertEqual(1, 2, msg="woshiguyide")
+        # try:
+        #     self.assertEqual(1, 2, msg="woshiguyide")
+        # except Exception as e:
+        #     log.error(str(e))
 
     def tearDown(self):
         print "end test-------------"

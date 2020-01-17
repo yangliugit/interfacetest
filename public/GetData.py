@@ -30,7 +30,7 @@ def get_xls(xls_name, sheet_name):
     sheet = xls.sheet_by_name(sheet_name)
     sheet_nrows = sheet.nrows
     for i in range(sheet_nrows):
-        if sheet.row_values(i)[0] != u"caseName":
+        if sheet.row_values(i)[0] != u"caseName":  # 剔除首行
             case_list.append(sheet.row_values(i))
     return case_list
 
@@ -139,9 +139,10 @@ def dict_cmp(src_data, dst_data):
         return True
 
 if __name__ == '__main__':
-    a = {'a': [1, 2, 3, 4], "c": {1: 'a', 2: 'b'}}
-    b = {'a': [1, 2, 3, 6], "c": {1: 'a', 2: 'b'}}
-    try:
-        assert dict_cmp(a, b) is True, "dict is not equal"
-    except Exception as e:
-        log.info(e)
+    print get_xls("test_case.xlsx","mycase")
+    # a = {'a': [1, 2, 3, 4], "c": {1: 'a', 2: 'b'}}
+    # b = {'a': [1, 2, 3, 6], "c": {1: 'a', 2: 'b'}}
+    # try:
+    #     assert dict_cmp(a, b) is True, "dict is not equal"
+    # except Exception as e:
+    #     log.info(e)

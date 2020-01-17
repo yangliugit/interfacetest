@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>Test Report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-02-26 11:42:59</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:10</p>
-<p class='attribute'><strong>Status:</strong> Pass 10</p>
+<p class='attribute'><strong>Start Time:</strong> 2020-01-09 16:10:48</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:11.338000</p>
+<p class='attribute'><strong>Status:</strong> Pass 6 Failure 10</p>
 
 <p class='description'>Test Description</p>
 </div>
@@ -221,31 +221,31 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.Getdata_0</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_getdata</div></td>
+<tr id='ft1.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_getdata</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        fail</a>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: begin test-------------
+ft1.1: begin test-------------
 caseName:test1 
  method:post 
  vehicleIds:10010.0 
@@ -256,7 +256,10 @@ caseName:test1
  paramName:test 
  Id:1.0 
  
-end test-------------
+Traceback (most recent call last):
+  File "D:\interface_test\test_case\Getdata.py", line 30, in test_getdata
+    self.assertEqual(1, 2, msg="woshiguyide")
+AssertionError: woshiguyide
 
 
         </pre>
@@ -266,31 +269,31 @@ end test-------------
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.Getdata_1</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
 </tr>
 
-<tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_getdata</div></td>
+<tr id='ft2.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_getdata</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
+        fail</a>
 
-    <div id='div_pt2.1' class="popup_window">
+    <div id='div_ft2.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt2.1: begin test-------------
+ft2.1: begin test-------------
 caseName:test2 
  method:get 
  vehicleIds:10010.0 
@@ -301,7 +304,10 @@ caseName:test2
  paramName:test 
  Id:2.0 
  
-end test-------------
+Traceback (most recent call last):
+  File "D:\interface_test\test_case\Getdata.py", line 30, in test_getdata
+    self.assertEqual(1, 2, msg="woshiguyide")
+AssertionError: woshiguyide
 
 
         </pre>
@@ -311,31 +317,31 @@ end test-------------
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.Getdata_2</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
 </tr>
 
-<tr id='pt3.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_getdata</div></td>
+<tr id='ft3.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_getdata</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
+        fail</a>
 
-    <div id='div_pt3.1' class="popup_window">
+    <div id='div_ft3.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt3.1: begin test-------------
+ft3.1: begin test-------------
 caseName:test3 
  method:post 
  vehicleIds:10010.0 
@@ -346,7 +352,10 @@ caseName:test3
  paramName:test 
  Id:3.0 
  
-end test-------------
+Traceback (most recent call last):
+  File "D:\interface_test\test_case\Getdata.py", line 30, in test_getdata
+    self.assertEqual(1, 2, msg="woshiguyide")
+AssertionError: woshiguyide
 
 
         </pre>
@@ -356,31 +365,31 @@ end test-------------
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.Getdata_3</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c4',1)">Detail</a></td>
 </tr>
 
-<tr id='pt4.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_getdata</div></td>
+<tr id='ft4.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_getdata</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.1')" >
+        fail</a>
 
-    <div id='div_pt4.1' class="popup_window">
+    <div id='div_ft4.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft4.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt4.1: begin test-------------
+ft4.1: begin test-------------
 caseName:test4 
  method:get 
  vehicleIds:10010.0 
@@ -391,7 +400,10 @@ caseName:test4
  paramName:test 
  Id:4.0 
  
-end test-------------
+Traceback (most recent call last):
+  File "D:\interface_test\test_case\Getdata.py", line 30, in test_getdata
+    self.assertEqual(1, 2, msg="woshiguyide")
+AssertionError: woshiguyide
 
 
         </pre>
@@ -401,31 +413,31 @@ end test-------------
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.Getdata_4</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c5',1)">Detail</a></td>
 </tr>
 
-<tr id='pt5.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_getdata</div></td>
+<tr id='ft5.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_getdata</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft5.1')" >
+        fail</a>
 
-    <div id='div_pt5.1' class="popup_window">
+    <div id='div_ft5.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft5.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt5.1: begin test-------------
+ft5.1: begin test-------------
 caseName:test5 
  method:post 
  vehicleIds:10010.0 
@@ -436,7 +448,10 @@ caseName:test5
  paramName:test 
  Id:5.0 
  
-end test-------------
+Traceback (most recent call last):
+  File "D:\interface_test\test_case\Getdata.py", line 30, in test_getdata
+    self.assertEqual(1, 2, msg="woshiguyide")
+AssertionError: woshiguyide
 
 
         </pre>
@@ -446,31 +461,31 @@ end test-------------
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.Getdata_5</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c6',1)">Detail</a></td>
 </tr>
 
-<tr id='pt6.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_getdata</div></td>
+<tr id='ft6.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_getdata</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft6.1')" >
+        fail</a>
 
-    <div id='div_pt6.1' class="popup_window">
+    <div id='div_ft6.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft6.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt6.1: begin test-------------
+ft6.1: begin test-------------
 caseName:test6 
  method:get 
  vehicleIds:10010.0 
@@ -481,7 +496,10 @@ caseName:test6
  paramName:test 
  Id:6.0 
  
-end test-------------
+Traceback (most recent call last):
+  File "D:\interface_test\test_case\Getdata.py", line 30, in test_getdata
+    self.assertEqual(1, 2, msg="woshiguyide")
+AssertionError: woshiguyide
 
 
         </pre>
@@ -491,31 +509,31 @@ end test-------------
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.Getdata_6</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c7',1)">Detail</a></td>
 </tr>
 
-<tr id='pt7.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_getdata</div></td>
+<tr id='ft7.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_getdata</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt7.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft7.1')" >
+        fail</a>
 
-    <div id='div_pt7.1' class="popup_window">
+    <div id='div_ft7.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt7.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft7.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt7.1: begin test-------------
+ft7.1: begin test-------------
 caseName:test7 
  method:post 
  vehicleIds:10010.0 
@@ -526,7 +544,10 @@ caseName:test7
  paramName:test 
  Id:7.0 
  
-end test-------------
+Traceback (most recent call last):
+  File "D:\interface_test\test_case\Getdata.py", line 30, in test_getdata
+    self.assertEqual(1, 2, msg="woshiguyide")
+AssertionError: woshiguyide
 
 
         </pre>
@@ -536,31 +557,31 @@ end test-------------
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.Getdata_7</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c8',1)">Detail</a></td>
 </tr>
 
-<tr id='pt8.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_getdata</div></td>
+<tr id='ft8.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_getdata</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt8.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft8.1')" >
+        fail</a>
 
-    <div id='div_pt8.1' class="popup_window">
+    <div id='div_ft8.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt8.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft8.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt8.1: begin test-------------
+ft8.1: begin test-------------
 caseName:test8 
  method:get 
  vehicleIds:10010.0 
@@ -571,7 +592,10 @@ caseName:test8
  paramName:test 
  Id:8.0 
  
-end test-------------
+Traceback (most recent call last):
+  File "D:\interface_test\test_case\Getdata.py", line 30, in test_getdata
+    self.assertEqual(1, 2, msg="woshiguyide")
+AssertionError: woshiguyide
 
 
         </pre>
@@ -581,31 +605,31 @@ end test-------------
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.Getdata_8</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c9',1)">Detail</a></td>
 </tr>
 
-<tr id='pt9.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_getdata</div></td>
+<tr id='ft9.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_getdata</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt9.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft9.1')" >
+        fail</a>
 
-    <div id='div_pt9.1' class="popup_window">
+    <div id='div_ft9.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt9.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft9.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt9.1: begin test-------------
+ft9.1: begin test-------------
 caseName:test9 
  method:post 
  vehicleIds:10010.0 
@@ -616,7 +640,10 @@ caseName:test9
  paramName:test 
  Id:9.0 
  
-end test-------------
+Traceback (most recent call last):
+  File "D:\interface_test\test_case\Getdata.py", line 30, in test_getdata
+    self.assertEqual(1, 2, msg="woshiguyide")
+AssertionError: woshiguyide
 
 
         </pre>
@@ -626,31 +653,31 @@ end test-------------
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='failClass'>
     <td>paramunittest.Getdata_9</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c10',1)">Detail</a></td>
 </tr>
 
-<tr id='pt10.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_getdata</div></td>
+<tr id='ft10.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_getdata</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt10.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft10.1')" >
+        fail</a>
 
-    <div id='div_pt10.1' class="popup_window">
+    <div id='div_ft10.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt10.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft10.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt10.1: begin test-------------
+ft10.1: begin test-------------
 caseName:test10 
  method:get 
  vehicleIds:10010.0 
@@ -661,7 +688,10 @@ caseName:test10
  paramName:test 
  Id:10.0 
  
-end test-------------
+Traceback (most recent call last):
+  File "D:\interface_test\test_case\Getdata.py", line 30, in test_getdata
+    self.assertEqual(1, 2, msg="woshiguyide")
+AssertionError: woshiguyide
 
 
         </pre>
@@ -671,11 +701,181 @@ end test-------------
     </td>
 </tr>
 
+<tr class='passClass'>
+    <td>test.TestInterface</td>
+    <td>6</td>
+    <td>6</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c11',6)">Detail</a></td>
+</tr>
+
+<tr id='pt11.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_get_many</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt11.1')" >
+        pass</a>
+
+    <div id='div_pt11.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt11.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt11.1: update_time 2018-07-06 10:43:53
+name æå
+age 26
+sex ç·
+position æµè¯å·¥ç¨å¸
+adress é¨è±å°åºå®å¾·é¨é¾ç¦å±±åº
+id 1
+description é¨æ·æ´»å¨æµè¯å·¥ä½
+update_time 2018-07-06 10:45:59
+name æä¿
+age 26
+sex ç·
+position æµè¯å·¥ç¨å¸
+adress é¨è±å°åºå®å¾·é¨é¾ç¦å±±åº
+id 2
+description é¨æ·æ´»å¨æµè¯å·¥ä½
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt11.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_get_one</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt11.2')" >
+        pass</a>
+
+    <div id='div_pt11.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt11.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt11.2: update_time 2018-07-06 10:43:53
+name æå
+age 26
+sex ç·
+position æµè¯å·¥ç¨å¸
+adress é¨è±å°åºå®å¾·é¨é¾ç¦å±±åº
+id 1
+description é¨æ·æ´»å¨æµè¯å·¥ä½
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt11.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_getdata_xls</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt11.3')" >
+        pass</a>
+
+    <div id='div_pt11.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt11.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt11.3: [u'test1', u'post', 10010.0, 20020.0, u'dir', u'st-99999', u'ht:6800', u'test', 1.0]
+[u'test2', u'get', 10010.0, 20020.0, u'dir', u'st-100000', u'ht:6801', u'test', 2.0]
+[u'test3', u'post', 10010.0, 20020.0, u'dir', u'st-100001', u'ht:6802', u'test', 3.0]
+[u'test4', u'get', 10010.0, 20020.0, u'dir', u'st-100002', u'ht:6803', u'test', 4.0]
+[u'test5', u'post', 10010.0, 20020.0, u'dir', u'st-100003', u'ht:6804', u'test', 5.0]
+[u'test6', u'get', 10010.0, 20020.0, u'dir', u'st-100004', u'ht:6805', u'test', 6.0]
+[u'test7', u'post', 10010.0, 20020.0, u'dir', u'st-100005', u'ht:6806', u'test', 7.0]
+[u'test8', u'get', 10010.0, 20020.0, u'dir', u'st-100006', u'ht:6807', u'test', 8.0]
+[u'test9', u'post', 10010.0, 20020.0, u'dir', u'st-100007', u'ht:6808', u'test', 9.0]
+[u'test10', u'get', 10010.0, 20020.0, u'dir', u'st-100008', u'ht:6809', u'test', 10.0]
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt11.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_insert_many</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt11.4')" >
+        pass</a>
+
+    <div id='div_pt11.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt11.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt11.4: 2020-01-09 16:10:59
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt11.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_insert_one</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt11.5')" >
+        pass</a>
+
+    <div id='div_pt11.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt11.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt11.5: 2020-01-09 16:11:00
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt11.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_update</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
 <tr id='total_row'>
     <td>Total</td>
+    <td>16</td>
+    <td>6</td>
     <td>10</td>
-    <td>10</td>
-    <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>
 </tr>

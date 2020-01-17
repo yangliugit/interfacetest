@@ -1,0 +1,20 @@
+2020-01-09 16:10:48,803 - root - Run.py - run - INFO - *************TEST START*************
+2020-01-09 16:10:58,808 - root - test.py - setUp - INFO - Begin test!!!
+2020-01-09 16:10:59,881 - root - MyDb.py - dispose - INFO - Success to execute SQL
+2020-01-09 16:10:59,881 - root - test.py - tearDown - INFO - End test!!!
+2020-01-09 16:10:59,881 - root - test.py - setUp - INFO - Begin test!!!
+2020-01-09 16:10:59,910 - root - MyDb.py - dispose - INFO - Success to execute SQL
+2020-01-09 16:10:59,911 - root - test.py - tearDown - INFO - End test!!!
+2020-01-09 16:10:59,911 - root - test.py - setUp - INFO - Begin test!!!
+2020-01-09 16:10:59,926 - root - test.py - tearDown - INFO - End test!!!
+2020-01-09 16:10:59,927 - root - test.py - setUp - INFO - Begin test!!!
+2020-01-09 16:11:00,017 - root - MyDb.py - dispose - INFO - Success to execute SQL
+2020-01-09 16:11:00,019 - root - test.py - tearDown - INFO - End test!!!
+2020-01-09 16:11:00,019 - root - test.py - setUp - INFO - Begin test!!!
+2020-01-09 16:11:00,071 - root - MyDb.py - dispose - INFO - Success to execute SQL
+2020-01-09 16:11:00,072 - root - test.py - test_insert_one - ERROR - insert one Failed
+2020-01-09 16:11:00,072 - root - test.py - tearDown - INFO - End test!!!
+2020-01-09 16:11:00,072 - root - test.py - setUp - INFO - Begin test!!!
+2020-01-09 16:11:00,141 - root - MyDb.py - dispose - INFO - Success to execute SQL
+2020-01-09 16:11:00,142 - root - test.py - tearDown - INFO - End test!!!
+2020-01-09 16:11:00,144 - root - Run.py - run - INFO - *************TEST END***************
